@@ -13,9 +13,9 @@
 		3E2175CB201283C800B0A493 /* TicTacToe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3E2175C9201283C800B0A493 /* TicTacToe.xcdatamodeld */; };
 		3E2175CD201283C800B0A493 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E2175CC201283C800B0A493 /* Assets.xcassets */; };
 		3E2175D0201283C800B0A493 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E2175CE201283C800B0A493 /* LaunchScreen.storyboard */; };
-		3E2175DA201284D100B0A493 /* Nought.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E2175D7201284D100B0A493 /* Nought.png */; };
-		3E2175DB201284D100B0A493 /* Cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E2175D8201284D100B0A493 /* Cross.png */; };
-		3E2175DC201284D100B0A493 /* Board.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E2175D9201284D100B0A493 /* Board.png */; };
+		3EA58F1E2015956D0028BE32 /* Nought.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EA58F1B2015956D0028BE32 /* Nought.png */; };
+		3EA58F1F2015956D0028BE32 /* Cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EA58F1C2015956D0028BE32 /* Cross.png */; };
+		3EA58F202015956D0028BE32 /* Board.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EA58F1D2015956D0028BE32 /* Board.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,9 +27,9 @@
 		3E2175CC201283C800B0A493 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E2175CF201283C800B0A493 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E2175D1201283C800B0A493 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3E2175D7201284D100B0A493 /* Nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Nought.png; path = ../../Nought.png; sourceTree = "<group>"; };
-		3E2175D8201284D100B0A493 /* Cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Cross.png; path = ../../Cross.png; sourceTree = "<group>"; };
-		3E2175D9201284D100B0A493 /* Board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Board.png; path = ../../Board.png; sourceTree = "<group>"; };
+		3EA58F1B2015956D0028BE32 /* Nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Nought.png; path = ../../../../Desktop/Nought.png; sourceTree = "<group>"; };
+		3EA58F1C2015956D0028BE32 /* Cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Cross.png; path = ../../../../Desktop/Cross.png; sourceTree = "<group>"; };
+		3EA58F1D2015956D0028BE32 /* Board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Board.png; path = ../../../../Desktop/Board.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,13 +65,13 @@
 				3E2175C2201283C800B0A493 /* AppDelegate.swift */,
 				3E2175C4201283C800B0A493 /* ViewController.swift */,
 				3E2175C6201283C800B0A493 /* Main.storyboard */,
+				3EA58F1B2015956D0028BE32 /* Nought.png */,
+				3EA58F1C2015956D0028BE32 /* Cross.png */,
+				3EA58F1D2015956D0028BE32 /* Board.png */,
 				3E2175CC201283C800B0A493 /* Assets.xcassets */,
 				3E2175CE201283C800B0A493 /* LaunchScreen.storyboard */,
 				3E2175D1201283C800B0A493 /* Info.plist */,
 				3E2175C9201283C800B0A493 /* TicTacToe.xcdatamodeld */,
-				3E2175D7201284D100B0A493 /* Nought.png */,
-				3E2175D8201284D100B0A493 /* Cross.png */,
-				3E2175D9201284D100B0A493 /* Board.png */,
 			);
 			path = TicTacToe;
 			sourceTree = "<group>";
@@ -133,11 +133,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E2175DC201284D100B0A493 /* Board.png in Resources */,
+				3EA58F202015956D0028BE32 /* Board.png in Resources */,
 				3E2175D0201283C800B0A493 /* LaunchScreen.storyboard in Resources */,
 				3E2175CD201283C800B0A493 /* Assets.xcassets in Resources */,
-				3E2175DB201284D100B0A493 /* Cross.png in Resources */,
-				3E2175DA201284D100B0A493 /* Nought.png in Resources */,
+				3EA58F1F2015956D0028BE32 /* Cross.png in Resources */,
+				3EA58F1E2015956D0028BE32 /* Nought.png in Resources */,
 				3E2175C8201283C800B0A493 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +299,7 @@
 				3E2175D6201283C800B0A493 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
